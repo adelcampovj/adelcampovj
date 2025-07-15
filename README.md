@@ -1,16 +1,34 @@
-## Hi there 👋
+# Hi, I’m Antonio!
+## [Cybersecurity Student | Aspiring Threat Intelligence Analyst | Developer](https://www.linkedin.com/in/antonio-del-campo/)
 
-<!--
-**adelcampovj/adelcampovj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🧠 Featured Projects
 
-Here are some ideas to get you started:
+- 🔍 **[AlertNet](https://github.com/adelcampovj/AlertNet)**  
+  Python-based network traffic monitoring tool using Scapy and PyShark for real-time anomaly detection, local packet capture, and alerting.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🛡️ **[Threat Dashboard](https://github.com/adelcampovj/threat-dashboard)**  
+  Terminal-based CLI tool for IP, domain, and malware hash reputation checks via public threat intelligence APIs (AbuseIPDB, OTX, VirusTotal).
+
+---
+
+### ⚙️ Tools & Skills
+- **Languages**: Python, Java, SQL, Bash, C, C++
+- **Tools**: Wireshark, Scapy, Git, PyShark, Nmap  
+- **Concepts**: Threat Intel, Digital Forensics, Networking, SOC Monitoring
+
+---
+
+### 🎓 Education & Certifications
+- BS in Cybersecurity @ Florida International University  
+- CompTIA Security+ Certified  
+- Exploring Ethical Hacking, Python Projects, and Network Security
+
+---
+
+### 🌐 Connect With Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/antonio-del-campo/)
+[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/adelcampovj)
+
+---
+
+*Always building. Always learning. Let’s connect!*
