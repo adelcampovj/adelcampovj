@@ -3,6 +3,9 @@
 
 ### 🧠 Featured Projects
 
+- 🦅 **[TalonSIEM](https://github.com/adelcampovj/talonsiem)**  
+  Lightweight Python SIEM that parses system logs, detects brute-force activity, stores events in SQLite, and triggers real-time alerts using regex rules.
+  
 - 🔍 **[AlertNet](https://github.com/adelcampovj/AlertNet)**  
   Python-based network traffic monitoring tool using Scapy and PyShark for real-time anomaly detection, local packet capture, and alerting.
 
