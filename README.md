@@ -4,7 +4,7 @@
 
 I’m a cybersecurity student at Florida International University with a strong interest in Blue Team security, threat detection, threat intelligence, SIEM-style monitoring, and defensive security engineering.
 
-I enjoy building hands-on cybersecurity projects that simulate real SOC workflows, including log analysis, network monitoring, DNS security, alert generation, and threat intelligence enrichment.
+I enjoy building hands-on cybersecurity projects that simulate real SOC workflows, including log analysis, network monitoring, DNS security, alert generation, packet inspection, and threat intelligence enrichment.
 
 ---
 
@@ -37,6 +37,21 @@ A lightweight Python-based SIEM that parses system authentication logs and detec
 - Simulates basic SOC monitoring and alert workflows
 
 **Technologies:** Python, SQLite, Regex, Linux, Bash, Git
+
+---
+
+### 🕵️ [ARP MITM Detector](https://github.com/adelcampovj/arp-mitm-detector)
+
+A cybersecurity lab project focused on detecting ARP spoofing and man-in-the-middle activity in a local network environment.
+
+**Key Features:**
+- Detects suspicious ARP behavior that may indicate a MITM attack
+- Monitors MAC/IP address mappings for unexpected changes
+- Identifies possible ARP spoofing by comparing observed network traffic against expected mappings
+- Demonstrates defensive detection techniques against local network attacks
+- Built and tested in a controlled lab environment using Kali Linux and virtual machines
+
+**Technologies:** Python, Scapy, Kali Linux, Linux, VirtualBox, Networking
 
 ---
 
@@ -73,7 +88,7 @@ A threat intelligence tool for analyzing IP addresses, domains, and malware hash
 ## Tools & Skills
 
 **Security Concepts:**  
-Threat Detection, Threat Intelligence, SOC Monitoring, SIEM, Incident Response, Digital Forensics, DNS Security, Packet Analysis, Vulnerability Management, NIST Cybersecurity Framework
+Threat Detection, Threat Intelligence, SOC Monitoring, SIEM, Incident Response, Digital Forensics, DNS Security, Packet Analysis, ARP Spoofing Detection, Network Security, Vulnerability Management, NIST Cybersecurity Framework
 
 **Programming & Scripting:**  
 Python, Bash, SQL, Java, C, C++, Regex, JSON Parsing, API Integration
