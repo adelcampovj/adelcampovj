@@ -1,37 +1,112 @@
-# Hi, I’m Antonio!
-## [Cybersecurity Student | Aspiring Threat Intelligence Analyst | Developer](https://www.linkedin.com/in/antonio-del-campo/)
+# Hi, I’m Antonio Del Campo
 
-### 🧠 Featured Projects
+## Cybersecurity Student | CompTIA Security+ Certified | Cyber Security Blue Team Intern
 
-- 🦅 **[TalonSIEM](https://github.com/adelcampovj/talonsiem)**  
-  Lightweight Python SIEM that parses system logs, detects brute-force activity, stores events in SQLite, and triggers real-time alerts using regex rules.
-  
-- 🔍 **[AlertNet](https://github.com/adelcampovj/AlertNet)**  
-  Python-based network traffic monitoring tool using Scapy and PyShark for real-time anomaly detection, local packet capture, and alerting.
+I’m a cybersecurity student at Florida International University with a strong interest in Blue Team security, threat detection, threat intelligence, SIEM-style monitoring, and defensive security engineering.
 
-- 🛡️ **[Threat Dashboard](https://github.com/adelcampovj/threat-dashboard)**  
-  Terminal-based CLI tool for IP, domain, and malware hash reputation checks via public threat intelligence APIs (AbuseIPDB, OTX, VirusTotal).
+I enjoy building hands-on cybersecurity projects that simulate real SOC workflows, including log analysis, network monitoring, DNS security, alert generation, and threat intelligence enrichment.
 
 ---
 
-### ⚙️ Tools & Skills
-- **Languages**: Python, Java, SQL, Bash, C, C++
-- **Tools**: Wireshark, Scapy, Git, PyShark, Nmap  
-- **Concepts**: Threat Intel, Digital Forensics, Networking, SOC Monitoring
+## Featured Cybersecurity Projects
+
+### 🛰️ [DNS Exfiltration Detector](https://github.com/adelcampovj/dns-exfiltration-detector)
+
+A Blue Team web application that analyzes DNS logs to detect potential DNS tunneling and data exfiltration.
+
+**Key Features:**
+- Detects long subdomains, high-entropy domains, suspicious TXT records, and encoded strings
+- Scores suspicious DNS queries based on multiple detection rules
+- Stores DNS queries and alerts in SQLite
+- Includes a Flask dashboard with visualizations for alerts, severity levels, suspicious domains, and DNS activity
+- Designed to simulate how SOC analysts investigate DNS-based threats
+
+**Technologies:** Python, Flask, SQLite, JavaScript, Chart.js, HTML, CSS
 
 ---
 
-### 🎓 Education & Certifications
-- BS in Cybersecurity @ Florida International University  
-- CompTIA Security+ Certified  
-- Exploring Ethical Hacking, Python Projects, and Network Security
+### 🦅 [TalonSIEM](https://github.com/adelcampovj/talonsiem)
+
+A lightweight Python-based SIEM that parses system authentication logs and detects brute-force login activity.
+
+**Key Features:**
+- Parses Linux authentication logs
+- Detects failed login patterns using threshold-based logic
+- Stores events and alerts in SQLite
+- Uses regex rules to identify suspicious activity
+- Simulates basic SOC monitoring and alert workflows
+
+**Technologies:** Python, SQLite, Regex, Linux, Bash, Git
 
 ---
 
-### 🌐 Connect With Me
+### 🔍 [AlertNet](https://github.com/adelcampovj/AlertNet)
+
+A network traffic monitoring tool designed to capture and analyze packets for suspicious activity.
+
+**Key Features:**
+- Captures and inspects network traffic
+- Uses packet analysis to identify abnormal activity
+- Generates alerts for suspicious network behavior
+- Supports local lab-based testing in Kali Linux and VirtualBox
+- Helps practice defensive monitoring and packet analysis skills
+
+**Technologies:** Python, Scapy, PyShark, Pandas, Linux, Kali, VirtualBox
+
+---
+
+### 🛡️ [Threat Dashboard](https://github.com/adelcampovj/threat-dashboard)
+
+A threat intelligence tool for analyzing IP addresses, domains, and malware hashes using public reputation APIs.
+
+**Key Features:**
+- Checks IP, domain, and hash reputation
+- Integrates with public threat intelligence sources
+- Helps enrich indicators of compromise with reputation data
+- Organizes results for security review and investigation
+- Supports basic CTI workflows for suspicious indicators
+
+**Technologies:** Python, Dash, Pandas, REST APIs, SQLite, Plotly, Git
+
+---
+
+## Tools & Skills
+
+**Security Concepts:**  
+Threat Detection, Threat Intelligence, SOC Monitoring, SIEM, Incident Response, Digital Forensics, DNS Security, Packet Analysis, Vulnerability Management, NIST Cybersecurity Framework
+
+**Programming & Scripting:**  
+Python, Bash, SQL, Java, C, C++, Regex, JSON Parsing, API Integration
+
+**Tools & Platforms:**  
+Wireshark, Scapy, PyShark, Nmap, Kali Linux, Linux Command Line, VirtualBox, Git, GitHub, SQLite, Flask, Dash, Plotly, Chart.js
+
+---
+
+## Education & Certifications
+
+- **B.S. in Cybersecurity** — Florida International University  
+- **A.A. in Computer Science** — Miami Dade College  
+- **CompTIA Security+ Certified**
+- **Complete Ethical Hacking Bootcamp**
+- **Mastercard Cybersecurity Job Simulation**
+
+---
+
+## Current Focus
+
+- Building stronger Blue Team and SOC-focused projects
+- Improving SIEM, log analysis, and incident response skills
+- Learning more about enterprise cybersecurity operations
+- Continuing to grow in threat intelligence and defensive security
+
+---
+
+## Connect With Me
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/antonio-del-campo/)
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/adelcampovj)
 
 ---
 
-*Always building. Always learning. Let’s connect!*
+*Always building. Always learning. Always improving.*
